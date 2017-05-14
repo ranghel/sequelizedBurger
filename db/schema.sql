@@ -11,16 +11,16 @@ To run this file, we do the following in our Terminal:
 */
 
 -- Create the database day_planner_db and specified it for use.
-CREATE DATABASE burgers_db;
-USE burgers_db;
+CREATE DATABASE sequelizedburgers_db;
+USE sequelizedburgers_db;
 
--- Create the table plans.
-CREATE TABLE burgers
-(
-id int AUTO_INCREMENT,
-burger_name varchar(255) NOT NULL,
-devoured BOOLEAN DEFAULT FALSE,
-date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-PRIMARY KEY (id)
-);
+-- -- Create the table plans.
+-- CREATE TABLE burgers
+-- (
+-- id int AUTO_INCREMENT,
+-- burger_name varchar(255) NOT NULL,
+-- devoured BOOLEAN DEFAULT FALSE,
+-- date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+-- PRIMARY KEY (id)
+-- );
 
