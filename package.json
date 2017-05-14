@@ -1,21 +1,22 @@
 {
-  "name": "eataburgerhomework",
+  "name": "sequelizedburgers",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ranghel/Burger.git"
+    "url": "git+https://github.com/ranghel/sequelizedBurger.git"
   },
   "author": "Ramona Anghel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ranghel/Burger/issues"
+    "url": "https://github.com/ranghel/sequelizedBurger/issues"
   },
-  "homepage": "https://github.com/ranghel/Burger#readme",
+  "homepage": "https://github.com/ranghel/sequelizedBurger#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
